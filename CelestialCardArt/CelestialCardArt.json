@@ -1,0 +1,17 @@
+{
+  "id": "CelestialCardArt",
+  "name": "天体卡面",
+  "author": "规范有勇气",
+  "description": "天体主题卡牌与遗物美术。默认先古全幅，可在下方切换普通／先古及 A／B 图稿，右侧同步预览静态与动态；动态浏览台支持放大欣赏。推荐搭配 Skin Changer 管理卡面，动态播放开关在本页调整。仅修改显示。",
+  "version": "1.1.1",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {
+      "id": "STS2-RitsuLib",
+      "min_version": "0.5.20"
+    }
+  ],
+  "min_game_version": "0.111.0",
+  "affects_gameplay": false
+}
