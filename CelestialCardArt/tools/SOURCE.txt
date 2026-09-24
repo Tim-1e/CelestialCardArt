@@ -1,0 +1,11 @@
+This mod includes an unmodified, standalone FFmpeg executable for local video conversion.
+FFmpeg is an independent process; it is not linked into the mod DLL.
+License: GNU LGPL version 3 or later (see LICENSE-LGPL-3.0.txt).
+Build: BtbN N-126626-g7070fe638e-20260917, win64-lgpl (no --enable-gpl or --enable-nonfree).
+Upstream project: https://ffmpeg.org/
+Corresponding FFmpeg source: https://github.com/FFmpeg/FFmpeg/tree/7070fe638e
+Build recipes and dependency sources: https://github.com/BtbN/FFmpeg-Builds/tree/autobuild-2026-09-17-13-19
+Original release: https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2026-09-17-13-19
+Source archives accompanying this mod: https://github.com/Tim-1e/CelestialCardArt/releases/tag/v1.2.0
+No FFmpeg source modifications were made by this mod.
+The tools/ffmpeg.exe file can be replaced with a compatible LGPL build containing libtheora.
