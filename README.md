@@ -2,7 +2,7 @@
 
 给储君整点大场面。**18张卡牌、20套动态画稿、7件遗物美术、13套人物素材。只换美术，不改数值。**
 
-[Steam 工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3803362518) · [下载 v1.2.0 完整包](https://github.com/Tim-1e/CelestialCardArt/releases/download/v1.2.0/CelestialCardArt-v1.2.0.zip) · [完整介绍](CelestialCardArt.md) · [全部实机截图与短片](docs/showcase.md)
+[Steam 工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3803362518) · [下载 v1.2.1 完整包](https://github.com/Tim-1e/CelestialCardArt/releases/download/v1.2.1/CelestialCardArt-v1.2.1.zip) · [完整介绍](CelestialCardArt.md) · [全部实机截图与短片](docs/showcase.md)
 
 ![创世之柱：储君二次元天体动态卡面 MOD](docs/media/video-cover.jpg)
 
@@ -11,6 +11,12 @@
 ![战斗中的动态手牌](docs/media/battle-loop.gif)
 ![牌堆中的动态卡面](docs/media/piles-loop.gif)
 ![黑洞的游戏内动态详情](docs/media/black-hole-loop.gif)
+
+## v1.2.1：游戏 v0.113.1 兼容修复
+
+修复百科卡牌刷新异常、先古卡框／文字底板出现红色“NOPE”占位图，以及旧卡框节点导致的预览异常。适配新版卡牌选择接口与图集资源，兼容独立运行及 Skin Changer。需要游戏 v0.113.1 或以上；旧游戏请使用 v1.2.0。
+
+Windows v0.113.1 下已验证实际百科、费用数字、动态开关、选择界面与20套画稿的40种版式。随包美术、视频转换工具和个人设置不变；未执行完整对局回归。
 
 ## v1.2.0：自己的图片和短视频，也能成为卡面
 
@@ -37,7 +43,7 @@
 
 ## 安装与搭配
 
-1. 订阅 Steam 工坊，或下载 **CelestialCardArt-v1.2.0.zip**，退出游戏后把其中的 `CelestialCardArt` 文件夹放入游戏 `mods` 目录。
+1. 订阅 Steam 工坊，或下载 **CelestialCardArt-v1.2.1.zip**，退出游戏后把其中的 `CelestialCardArt` 文件夹放入游戏 `mods` 目录。
 2. 安装并启用 [RitsuLib](https://steamcommunity.com/sharedfiles/filedetails/?id=3747602295) 0.5.20 或以上，再重启游戏。手动安装和工坊版只保留一种来源。
 3. 在天体卡面设置中选图、预览或导入。安装新版需要重启一次；之后应用个人素材不必重启。
 
@@ -47,9 +53,9 @@
 
 ## 发布与验证
 
-本次更新导入功能和展示资料；随包卡图、动画、遗物资源与 v1.1.1 完全相同。未包含作者的本机偏好、个人导入素材、演示存档或制作脚本。
+v1.2.0 更新导入功能和展示资料；随包卡图、动画、遗物资源与 v1.1.1 完全相同。未包含作者的本机偏好、个人导入素材、演示存档或制作脚本。
 
-Windows／游戏 v0.111.0 下使用实际公开 DLL 验证了 20 套动画的两种版式、原版及 SC 来源预览、图片和 MP4 导入、开关与升级条件、失败保留原选择、恢复及游戏重启后的播放。界面目前为中文。
+v1.2.0 发布时，Windows／游戏 v0.111.0 下使用实际公开 DLL 验证了 20 套动画的两种版式、原版及 SC 来源预览、图片和 MP4 导入、开关与升级条件、失败保留原选择、恢复及游戏重启后的播放。界面目前为中文。
 
 `CelestialCardArt/` 与工坊运行包逐文件一致。仓库大文件使用 Git LFS；普通玩家请下载 Release ZIP。Release 附 SHA-256 校验文件，短片与 FFmpeg 源码是独立附件，不必额外安装。
 
@@ -58,6 +64,8 @@ Windows／游戏 v0.111.0 下使用实际公开 DLL 验证了 20 套动画的两
 ## English
 
 Artwork-only mod for Slay the Spire 2: 18 cards, 20 animated artworks, 7 relics and 13 character artworks. Normal and Ancient layouts both support animation; there are no stat or combat-rule changes.
+
+**v1.2.1 fixes compatibility with game v0.113.1:** encyclopedia refresh errors, missing Ancient frame textures (red NOPE placeholders), and removed scene-node references. Tested with and without Skin Changer; artwork and preferences are unchanged. Game v0.113.1+ is required; use v1.2.0 for older games.
 
 **v1.2.0 adds personal image/video import to the public build.** Supported images: PNG/JPEG/WebP. Supported videos: MP4/MOV/MKV/WebM/OGV, using the bundled Windows x64 converter. Videos play silently, loop, and are limited to the first 30 seconds at a maximum 1280-pixel edge and 24 fps. Per-layout crops, instant application, private persistent storage and restore-to-bundled-art are included. Animation preferences still apply.
 
